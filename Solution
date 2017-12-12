@@ -1,0 +1,14 @@
+import java.util.*;import java.lang.*;
+class Rextester{      
+public static void main(String args[]){        
+String []response ={"Fizz", "Buzz", "FizzBuzz"};        
+for(int i= 0; i<100; i++){            
+if(i % 3 ==0){            
+System.out.println(response[0]);            
+}            
+if(i % 5 ==0){            
+System.out.println(response[1]);            
+}            
+if(i % 3 ==0 && i % 5 ==0){            
+System.out.println(response[2]);            
+}    }}}
